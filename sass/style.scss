@@ -1,0 +1,15 @@
+
+@use 'header';
+
+$brandColor: rgb(44, 7, 38); 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ body {
+     background-color: $brandColor;
+    //  background-color: header.$brandColor;
+ }
